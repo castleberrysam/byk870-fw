@@ -1,0 +1,22 @@
+format:
+ttelllll: t = type, e = extend, l = length or high length
+LLLLLLLL: L = low length
+if extend, then L is present and repetition happens {l,L} times (only for t = 01)
+
+when t == x0: x = which, 0 = internal ram, 1 = external ram
+aaaaaaaa:     a = addr
+vvvvvvvv x l: v = value
+set int/ext ram at addr a to l values v,v,v,...
+
+when t == 11:
+vaaaabbb: v = value, a = addr, b = bit
+sets bit b to value v at addr 0x20+a
+repeat l times
+
+11010011
+
+when t == 01:
+aaaaaaaa: high addr
+AAAAAAAA: low addr
+vvvvvvvv x l: v = value
+set ext ram at addr {a,A} to l values v,v,v,...

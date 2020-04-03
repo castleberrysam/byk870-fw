@@ -1,0 +1,16 @@
+Reverse engineering the firmware for BYK800/BYK801/BYK870 based mechanical keyboards.
+
+Currently most efforts are focused on the BYK870 since this is the chip in my keyboard (the E-Element Z88), but one can
+assume that the BYK800/BYK801 are similar.
+
+Each subdirectory contains the firmware update utility for the respective chip. I originally got these files from
+http://www.eyspc.cn/server.aspx?code=0301 but it seems that the downloads are no longer working, so if you are just
+looking for the original updater utility you can find it there. The actual firmware blob is encrypted and embedded
+inside the executable. You can extract it for disassembly and analysis using fw_decrypt.py.
+
+There are no available datasheets online for the BYK870; however, I figured out that it's actually just a relabeled
+version of the SinoWealth SH79F6488 8051-based microcontroller. I've included the datasheet for this part.
+
+By probing my keyboard with a multimeter and looking at some of the code, I figured out some of the GPIO connections of
+the microcontroller, which you can find in pinout.txt. I couldn't figure out all of the connections since my keyboard
+doesn't have a number pad, which the firmware supports since it's also used in larger keyboards.

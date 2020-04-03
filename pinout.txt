@@ -1,0 +1,87 @@
+rows and column numbers start at the bottom left
+
+P0.2: USB pin D+
+P0.3: USB pin D-
+P0.4: USB pin D+ pulldown (used during reset)
+P2.0: USB pin D- pullup (used during reset)
+
+P0.5: switch row 6 drive
+P0.6: switch row 5 drive
+P0.7: switch row 4 drive
+P2.1: switch row 3 drive
+P2.2: switch row 2 drive
+P2.3: switch row 1 drive
+
+P1.0: unknown (guess: switch column sense / LED column drive)
+P1.1: unknown (guess: switch column sense / LED column drive)
+P1.2: unknown (guess: switch column sense / LED column drive)
+P1.3: unknown (guess: switch column sense / LED column drive)
+P1.4: unknown (guess: switch column sense / LED column drive)
+P1.5: unknown (guess: switch column sense / LED column drive)
+P1.6: unknown (guess: switch column sense / LED column drive)
+P1.7: unknown (guess: switch column sense / LED column drive)
+P3.2: unknown (guess: switch column sense / LED column drive)
+P3.3: unknown (guess: switch column sense / LED column drive)
+P6.0: unknown (guess: switch column sense / LED column drive)
+P6.1: switch column 1 sense / LED column 1 drive
+P6.2: switch column 2 sense / LED column 2 drive
+P6.3: switch column 3 sense / LED column 3 drive
+P6.4: switch column 4 sense / LED column 4 drive
+P6.5: switch column 5 sense / LED column 5 drive
+P6.6: switch column 6 sense / LED column 6 drive
+P6.7: switch column 7 sense / LED column 7 drive
+P7.0: switch column 8 sense / LED column 8 drive
+P7.1: switch column 9 sense / LED column 9 drive
+P7.2: switch column 10 sense / LED column 10 drive
+P7.3: switch column 11 sense / LED column 11 drive
+P7.4: switch column 12 sense / LED column 12 drive
+P7.5: switch column 13 sense / LED column 13 drive
+P7.6: switch column 14 sense / LED column 14 drive
+P7.7: switch column 15 sense / LED column 15 drive
+P8.0: switch column 16 sense / LED column 16 drive
+P8.1: switch column 17 sense / LED column 17 drive
+P8.2: switch column 18 sense / LED column 18 drive
+
+P2.4: LED row 1 pin 3 drive
+P2.5: LED row 1 pin 2 drive
+P2.6: LED row 1 pin 4 drive
+
+P2.7: LED row 2 pin 3 drive
+P5.0: LED row 2 pin 2 drive
+P5.1: LED row 2 pin 4 drive
+
+P5.2: LED row 3 pin 3 drive
+P5.3: LED row 3 pin 2 drive
+P5.4: LED row 3 pin 4 drive
+
+P5.5: LED row 4 pin 3 drive
+P5.6: LED row 4 pin 2 drive
+P5.7: LED row 4 pin 4 drive
+
+P8.3: LED row 5 pin 4 drive
+P8.4: LED row 5 pin 2 drive
+P8.5: LED row 5 pin 3 drive
+
+P8.6: LED row 6 pin 4 drive
+P8.7: LED row 6 pin 2 drive
+P3.0: LED row 6 pin 3 drive
+
+P4.4: LED driver GND control 3 (bottom row)
+P4.5: LED driver GND control 2 (right row)
+P4.6: LED driver GND control 1 (top row)
+
+P3.1: unknown (guess: dedicated LED for ???)
+P3.4: dedicated LED for Windows key
+P3.5: dedicated LED for Scroll Lock
+P3.6: dedicated LED for Caps Lock
+P3.7: unknown (guess: dedicated LED for Num Lock)
+
+P4.0: JTAG pin TDO
+P4.1: JTAG pin TMS
+P4.2: JTAG pin TDI
+P4.3: JTAG pin TCK
+
+P4.7: /RESET, pulled high
+
+P0.0: unknown
+P0.1: unknown
